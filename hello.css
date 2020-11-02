@@ -7,7 +7,7 @@ body,.ooper{
     height: 80px;
 }
 
-.anotherone{
+.anotherone,.grd{
     background-color: rgb(240, 200, 255);
     border-radius: 10px;
     box-shadow: 5px 5px 15px black;
@@ -25,6 +25,7 @@ body,.ooper{
     outline: none;
 }
 .mainbtn:hover{
+    color: white;
     background-color: rgb(101, 19, 126);
     box-shadow: 5px 5px 15px rgb(60, 0, 60);
 }
@@ -48,5 +49,9 @@ body,.ooper{
 }
 
 .gridder{
-    background-color: #fff;
+    padding: 30px;
+}
+
+.sellcards{
+    background-color: rgb(240, 200, 255);
 }
