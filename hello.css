@@ -1,5 +1,5 @@
 body,.ooper{
-    font-family: 'Merriweather', serif;
+    font-family: 'Lora', serif;
     background-color: rgb(60, 50, 70);
 }
 
@@ -8,5 +8,22 @@ body,.ooper{
 }
 
 .anotherone{
-    background-color: #fff;
+    background-color: rgb(240, 200, 255);
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px black;
+}
+
+.mainbtn{
+    padding: 10px 30px;
+    border: 0px;
+    color: whitesmoke;
+    border-radius: 25px;
+    background-color: purple;
+    transition: 0.3s ease-in-out;
+}
+.mainbtn:focus{
+    outline: none;
+}
+.mainbtn:hover{
+    background-color: blueviolet;
 }
