@@ -19,13 +19,13 @@ body,.ooper{
     color: whitesmoke;
     border-radius: 25px;
     background-color: rgb(40, 0, 40);
-    transition: 0.3s ease-in-out;
+    transition: 0.5s ease-in-out;
 }
 .mainbtn:focus{
     outline: none;
 }
 .mainbtn:hover{
-    background-color: rgb(60, 0, 60);
+    background-color: rgb(101, 19, 126);
     box-shadow: 5px 5px 15px rgb(60, 0, 60);
 }
 
@@ -37,3 +37,16 @@ body,.ooper{
     border-radius: 10px;
 }
 
+.fitt{
+    max-width: 100%;
+    max-height: auto;
+}
+
+.card{
+    border: 0px;
+    background-color: rgb(60, 50, 70);
+}
+
+.gridder{
+    background-color: #fff;
+}
