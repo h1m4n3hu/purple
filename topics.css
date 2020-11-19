@@ -1,0 +1,140 @@
+body{
+    animation: 20000ms ease-in-out infinite color-change;
+    font-family: 'Roboto', sans-serif;
+}
+
+@keyframes color-change{
+    0% {background-color: rgba(0, 128, 128, 0.7);}
+    20% {background-color: rgba(255, 217, 0, 0.7);}
+    40% {background-color: rgba(205, 92, 92, 0.7);}
+    60% {background-color: rgba(238, 130, 238, 0.7);}
+    80% {background-color: rgba(0, 128, 0, 0.7);}
+    100% {background-color: rgba(0, 128, 128, 0.7);}  
+}
+
+.topbar{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.khulta{
+    border: 0px !important;
+    outline: none !important;
+    transform: rotate(360deg);
+    transition: transform 0.5s;
+}
+.khulta:active{
+    transform: rotate(180deg);
+    transition:  0s;
+}
+
+.badges{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.imager{
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+img{
+    width: 75%;
+    height: auto;
+}
+
+.heroin{
+    background-color: rgba(255, 255, 255, 0);
+}
+
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    backdrop-filter: saturate(0%) blur(5px);
+    /*backdrop-filter: saturate(180%) blur(5px);*/
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+
+
+.topics{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: small;
+}
+
+.comp{
+    width: calc(225px + 3vw);
+    height: calc(125px + 3vw);
+    border: black 0px solid;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    outline: none !important;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    background-size: contain;
+    transition: .2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-repeat: no-repeat;
+}
+
+.comp1{background-image: url("https://www.flaticon.com/svg/static/icons/svg/876/876225.svg");}
+.comp2{background-image: url("https://www.flaticon.com/svg/static/icons/svg/1447/1447016.svg");}
+.comp3{background-image: url("https://miro.medium.com/max/3200/1*3jkT7LUG3R41RDp10g0hrQ.png");}
+.comp4{background-image: url("https://meterpreter.org/wp-content/uploads/2018/09/django-768x418.png");}
+.comp5{background-image: url("https://img-a.udemycdn.com/course/750x422/2292187_3527_5.jpg");}
+.comp6{background-image: url("https://res.cloudinary.com/practicaldev/image/fetch/s--LKvNCPB_--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/orzqipasg2192qrw0kho.png");}
+.comp7{background-image: url("https://meterpreter.org/wp-content/uploads/2018/09/django-768x418.png");}
+.comp8{background-image: url("https://pixelmechanics.com.sg/wp-content/uploads/2019/04/css-1200x667.jpg");}
+
+.mine{
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 2em;
+    color: rgba(255, 255, 255, 0);
+    transition: 0.7s ease;
+    width: 70%;
+}.mine:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 10px 10px 10px black;
+}

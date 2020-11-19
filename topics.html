@@ -10,11 +10,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/froala-design-blocks/2.0.0/css/froala_blocks.min.css">
     <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="topics.css">
     <title>Board</title>
 </head>
 <body>
-    
+
     <div class="container-fluid topbar">
     <div class="container">
     <nav class="navbar navbar-expand-lg navbar-dark">
@@ -45,36 +45,13 @@
         <a href="general">Collaborate</a>
     </div>
 
-    <section class="fdb-block">
-    <div class="container">
-        <div class="row text-center align-items-center">
-        <div class="col-8 col-md-4">
-            <img alt="image" class="img-fluid" src="https://digitalsynopsis.com/wp-content/uploads/2017/10/color-gradient-everyday-objects-photography-4.jpg">
-        </div>
-        <div class="col-4 col-md-2">
-            <div class="row">
-            <div class="col-12">
-                <img alt="image" class="img-fluid" src="https://digitalsynopsis.com/wp-content/uploads/2017/10/color-gradient-everyday-objects-photography-10.jpg">
-            </div>
-            </div>
-            <div class="row mt-4">
-            <div class="col-12">
-                <img alt="image" class="img-fluid" src="https://digitalsynopsis.com/wp-content/uploads/2017/10/color-gradient-everyday-objects-photography-11.jpg">
-            </div>
-            </div>
-        </div>
-
-        <div class="col-12 col-md-6 col-lg-5 ml-auto pt-5 pt-md-0">
-            <img alt="image" class="fdb-icon" src="https://i.ibb.co/d74CcYP/image-445583.png">
-            <h1>Blitboard</h1>
-            <p class="lead">People write because people don't listen. Programmers write because you cannot just explain it. XD</p>
-            <a class="btn btn-dark steped " href="#">Practice Questions</a>
-            <a class="btn btn-dark ml-3 steped" href="#">Read Artefacts</a>
-        </div>
-        </div>
+    <div class="container topics">
+        <button class="comp comp1" onclick="location.href='socket';"><div class="mine">SOCKET</div></button>
+        <button class="comp comp2" onclick="location.href='pygame';"><div class="mine">PYGAME</div></button>
+        <button class="comp comp3" onclick="location.href='gitandvsc';"><div class="mine">GIT AND VSC</div></button>
+        <button class="comp comp4" onclick="location.href='djangocc';"><div class="mine">DJANGO CRASH COURSE</div></button>
     </div>
-    </section>
-
+    
     <footer class="fdb-block footer-small">
     <div class="container">
         <div class="row text-center">
@@ -85,14 +62,14 @@
     </div>
     </footer>
 
-    <script>
-    function openNav() {
-        document.getElementById("mySidenav").style.width = "250px";
-    }
-    function closeNav() {
-        document.getElementById("mySidenav").style.width = "0";
-    }
-    </script>
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
 
 </body>
 </html>

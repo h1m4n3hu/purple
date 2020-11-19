@@ -1,7 +1,6 @@
 body{
     animation: 20000ms ease-in-out infinite color-change;
     font-family: 'Roboto', sans-serif;
-    letter-spacing: -1px;
 }
   
 @keyframes color-change{
@@ -10,7 +9,7 @@ body{
     40% {background-color: rgba(205, 92, 92, 0.7);}
     60% {background-color: rgba(238, 130, 238, 0.7);}
     80% {background-color: rgba(0, 128, 0, 0.7);}
-    100% {background-color: rgba(0, 128, 128, 0.7);}
+    100% {background-color: rgba(0, 128, 128, 0.7);}  
 }
 
 .topbar{
@@ -28,6 +27,28 @@ body{
     transition:  0s;
 }
 
+.badges{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.imager{
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+img{
+    width: 75%;
+    height: auto;
+}
+
+.heroin{
+    background-color: rgba(255, 255, 255, 0);
+}
+
+
+
 .sidenav {
     height: 100%;
     width: 0;
@@ -40,34 +61,30 @@ body{
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
-}
-
-.sidenav a{
+  }
+  
+  .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 25px;
     color: #000000;
     display: block;
     transition: 0.3s;
-}
-
-.sidenav a:hover{
-    color: #f1f1f1;
-}
+  }
   
-.sidenav .closebtn{
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
-}
+  }
   
-@media screen and (max-height: 450px){
+  @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
-}
-
-.hero{
-    margin-top: 30px;
-}
+  }
